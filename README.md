@@ -1,8 +1,8 @@
-# Student Management Informative System W
+# Student Management Informative System
 
 ## Project Overview
 
-The **Student Management Informative System W** is a comprehensive platform designed to manage and streamline student records and report generation. This project was developed in April 2024 using **Django, HTML, CSS,** and **JavaScript**.
+The **Student Management Informative System** is a comprehensive platform designed to manage and streamline student records and report generation. This project was developed in April 2024 using **Django, HTML, CSS,** and **JavaScript**.
 
 ## Key Features
 
@@ -28,7 +28,7 @@ The **Student Management Informative System W** is a comprehensive platform desi
 
 ### Installation
 
-1. Clone the repository: `[https://github.com/Dilesh-Bisen/Project-D.github.io.git](https://github.com/Dilesh-Bisen/Project-D.github.io.git)`
+1. Clone the repository: [https://github.com/Dilesh-Bisen/Project-D.github.io.git](https://github.com/Dilesh-Bisen/Project-D.github.io.git)
 2. Navigate to the project directory:
    - `cd env`
    - `cd Scripts`
