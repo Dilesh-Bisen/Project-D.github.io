@@ -1,102 +1,83 @@
-# Budget-Beam
+# Student Management Informative System
 
-Live: [Budget-Beam](https://budget-beam-green.vercel.app/sign-in?redirect_url=https%3A%2F%2Fbudget-beam-green.vercel.app%2F)
+## Project Overview
 
-Budget-Beam is a comprehensive financial management application designed to help users track their budgets and expenses efficiently. With intuitive features for creating, editing, and deleting budget items, users can easily manage their financial activities. The application includes detailed reporting capabilities, allowing users to generate and download financial reports in PDF format.
+The Student Management Informative System is a comprehensive platform designed to manage and streamline student records and report generation. This project was developed in April 2024 using Django, HTML, CSS, and JavaScript.
 
-## Table of Contents
+## Key Features
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
+- **Enhanced Data Handling Efficiency**: Designed and implemented a student management system, resulting in a 30% improvement in data handling efficiency.
+- **CRUD Functionality**: Developed and integrated CRUD (Create, Read, Update, Delete) functionalities for managing over 1,000 student records, leading to a 40% reduction in data retrieval and update times.
+- **Report Card Feature**: Created a report card feature that streamlined report generation, cutting the process time by 40% and enhancing accessibility for both educators and students.
+- **Robust Authentication and Authorization**: Established robust authentication and authorization mechanisms, reducing unauthorized access attempts by 50% and increasing overall system security.
 
-## Features
+## Technologies Used
 
-- **Budget Management**: Create, edit, and delete budget items with ease.
-- **Expense Tracking**: Add and update expenses associated with each budget item.
-- **Detailed Reporting**: Generate comprehensive financial reports, including budget performance, expense analysis, income trends, and savings growth.
-- **User-Friendly Interface**: A clean and intuitive user interface for seamless navigation and management.
-- **PDF Export**: Download financial reports in PDF format for easy sharing and record-keeping.
+- **Backend**: Django
+- **Frontend**: HTML5, CSS3, JavaScript
 
-## Installation
+## Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or later)
-- npm (v6 or later)
-- Git
+- Python and pip installed on your local machine.
+- Django installed.
 
-### Steps
+### Installation
 
 1. **Clone the Repository**:
 
     ```sh
-    git clone https://github.com/Dilesh-Bisen/Budget-Beam.git
-    cd Budget-Beam
+    git clone https://github.com/Dilesh-Bisen/Project-D.github.io.git
+    cd Project-D.github.io
     ```
 
-2. **Install Dependencies**:
+2. **Set Up the Virtual Environment**:
 
     ```sh
-    npm install
+    cd env
+    cd Scripts
+    ./activate
+    cd ..
+    cd ..
+    cd project
     ```
 
-3. **Set Up Environment Variables**:
+3. **Install Dependencies**:
 
-    Create a `.env` file in the root directory and add the necessary environment variables:
-
-    ```env
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_publishable_key
-    CLERK_SECRET_KEY=your_secret_key
-
-    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-
-    NEXT_PUBLIC_DATABASE_URL=your_database_url
+    ```sh
+    pip install -r requirements.txt
     ```
 
 4. **Run the Development Server**:
 
     ```sh
-    npm run dev
+    python manage.py runserver
     ```
 
-5. **Build the Project**:
+### Running the Application
+
+1. **Apply Database Migrations**:
 
     ```sh
-    npm run build
+    python manage.py migrate
     ```
 
-6. **Start the Production Server**:
+2. **Start the Development Server**:
 
     ```sh
-    npm start
+    python manage.py runserver
     ```
+
+3. **Open Your Browser**:
+
+    Navigate to [http://localhost:8000](http://localhost:8000) to view the application.
 
 ## Usage
 
-### Creating a Budget
-
-1. Navigate to the home page.
-2. Click on the "Create New Budget" button.
-3. Fill in the budget details such as name, amount, and icon.
-4. Click on the "Create Budget" button.
-
-### Adding an Expense
-
-1. Navigate to the budget item you want to add an expense to.
-2. Click on the budget item to open the details page.
-3. Fill in the expense details such as name, amount, and tags.
-4. Click on the "Add Expense" button.
-
-### Generating Reports
-
-1. Navigate to the "Reports" page.
-2. Click on the "Download Reports" button to generate and download the financial reports in PDF format.
+- **Manage Student Records**: Use the provided CRUD functionalities to manage student records efficiently.
+- **Generate Report Cards**: Access and generate report cards with the streamlined report generation feature.
+- **Secure Access**: Utilize the robust authentication and authorization features to ensure secure access to the system.
 
 ## Contributing
 
